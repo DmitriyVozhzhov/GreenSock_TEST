@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #efefef;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background: #222222;
+  position: relative;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+header .navbar .logo {
+  text-decoration: none;
+  color: white;
+}
+
+header .navbar .burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .navbar .burger:hover {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+header .navbar .burger__item {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+}
+
+header .header__item .header__text {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 400;
+  max-width: 570px;
+  margin-top: 100px;
+}
+
+header .header__item .header__image {
+  max-width: 750px;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+header .header__item button {
+  width: 250px;
+  height: 50px;
+  background: none;
+  border: 1px solid white;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+header .header__item button:hover {
+  background: #efefef;
+  color: black;
+}
+
+header .star {
+  position: absolute;
+  width: 135px;
+  height: auto;
+}
+
+header .star1 {
+  top: 50px;
+  left: 50px;
+}
+
+header .star2 {
+  top: 620px;
+  left: 20px;
+}
+
+header .star3 {
+  top: 70px;
+  right: 180px;
+}
+
+header .star4 {
+  bottom: 200px;
+  left: 400px;
+}
+
+header .star5 {
+  top: 450px;
+  left: 150px;
+}
+
+header .star6 {
+  top: 300px;
+  right: 800px;
+}
+
+header .star7 {
+  top: 520px;
+  left: 510px;
+}
+
+header .star8 {
+  top: 50px;
+  left: 50px;
+}
+
+header .header__line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  left: 60px;
+  background: gray;
+  z-index: -1;
+}
